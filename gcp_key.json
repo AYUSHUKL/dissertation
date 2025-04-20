@@ -1,13 +1,12 @@
 {
-  "type": "service_account",
-  "project_id": "sigma-tractor-456711-m3",
-  "private_key_id": "34ed1d06801b1dfcee73ca37f2cc3195d8c34ac5",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCjQOm6DTJycp6+\na2Gx+PjXo/10p91W96vXq5wK8LlTV5pN6c29jAT9yJiYYlL00T2AlkLp7xdKYWJG\nCUToQsEhMv4vKafjP2iZUJevndFzVVjql0pIFbqkEaTlnH8hRO7kt0Q65rzIkKO1\noLKAfYdcJioQBDNyPi1DBhGT3ApIXQcGXi9m54NaLc1EjvDOCrDCEU7B0lXLCH6C\nxkZwZ4q0ZxaG7VotAUYTB58Qg/ItU8corJpObKgAxSbbNDEgqCAKBvXVNQ9wdJj0\nuHEmC51jJsRkJXTyUd4CPlsq2ngv8FLitAX5n96biitK7tv2jCg+Z9O9Y5D3TRse\nOnwHmWTtAgMBAAECggEADRuTKJsSp9nIISXiDDYfVMEYApvPy8HLDF/9AWvelXB9\nNTBGkqeBZxcKGYIbgwih1Yc7DClkR1aWW2U3ISbq9s1vVz4S+s4GifjMlQ8o2AfM\nQdmv3yXPfIjmIoF0O6mbPMXyNoB8O+ZRHq4uZt6tVZrC2dJchxmy7KS6GJMcSD7/\nADiiBM/Fs5pRVwsC7dQqEKvBb8cTHtPfflBjUTplnsa1LIqRDQndVgjP2fd7D+s3\naofC8GbtG6doud+EZwG0wHPUOuHkgZjeRO6tjMck+WrOyk9kdUo9IITwNafO5uLg\nkBsHQpffRjKeTQ6PsErwENUWllZJ5uK3qKaTaBEUQQKBgQDarAyGEwvvMeJxgqya\niVTyHhLyBIG5zqUJpC6q/RiKau/viUkXcUyifSS5KTIOajnveAKH1abl4+LhBAeQ\noXef3rYgDPXaLQmDDrnJ6Lh6BMrJl6SILW9F1Wts8a1n7zKiybKHlDK8pTobB8ub\n9nbaxkFKCfQ+V1prH74mIf2ZdQKBgQC/HxSLYsFISu7HZ2Bw41r3t0Sb0EOG+Tn9\nkaHwacl2WpMUikE6SYbKtKBZdbRPBHlT2+f7TlsK3bXJnx3ryFrWqZWw97lZ354T\n9kuYYQAm8QDMVOlKuqJz2EQOf58S2KOjTapwmQnLXEozgExfSjJH7zD6NZTelZqa\nbIWsdsI2mQKBgCvR4GyZsoGLYJJYmlgZfyFJr4g6KPjgFSh6czOmpl1OkqhQvYnq\nFW5WX56PR82lsdhwFym7Qce9xABNe2qbQMqTqbGAh1/iOI6/y7FPZnBlN3HwZnM3\nj53R58YcJCC4yU/f1Vvf8c7l2WADTuUBHc43fmvk1MINZTwkT0l69EPlAoGAZ+uL\nbTr2Y8uyyCQS0W8eQIGbQandfd+4Q4NTbXjn/X3Eaa+/ReVC8KeEZQBWWXzSR+HT\n4ta5NFBXj1kAmPspQX2WklIwq4im2K3cbu+XeJUk3PXyoBqZSKo4XzXPlhzL5XjO\ni0j7hWMaSaSiYlHiwzBxDiviVaE9HmiRyrQMaEkCgYEAltIF76mr5paTdyi0jPZ4\nGcrT6jdlIh/Bh5NX/EhJ/943F9/uNrpVbxs3whTFEq7ZuFQcJqtOs0Zd+XyXCDuI\ngvlczm5ktB6BOBmCSdHUfjLOV6vM6fSvp5pPo3EbTBV6qa+ZRCwAPsyli9/3++UU\nmSXD+DhJK6RZipDwkj3ENgs=\n-----END PRIVATE KEY-----\n",
-  "client_email": "monitoring-reader@sigma-tractor-456711-m3.iam.gserviceaccount.com",
-  "client_id": "114585977180212989840",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-reader%40sigma-tractor-456711-m3.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "type": "",
+  "project_id": "",
+  "private_key_id": "",
+  "private_key": ""
+  "client_id": "",
+  "auth_uri": "",
+  "token_uri": "",
+  "auth_provider_x509_cert_url": "",
+  "client_x509_cert_url": "",
+  "universe_domain": ""
 }
