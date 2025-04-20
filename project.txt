@@ -1,0 +1,41 @@
+faultdetectionrolearn:  arn:aws:iam::122610488475:role/LambdaFaultDetectionRole
+
+
+"repository": {
+        "repositoryArn": "arn:aws:ecr:eu-north-1:122610488475:repository/fault-detector",
+        "registryId": "122610488475",
+        "repositoryName": "fault-detector",
+        "repositoryUri": "122610488475.dkr.ecr.eu-north-1.amazonaws.com/fault-detector",
+        "createdAt": "2025-03-16T22:41:39.930000+05:30",
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": false
+        },
+        "encryptionConfiguration": {
+            "encryptionType": "AES256"
+
+
+steps:
+
+docker build -t fault-detector .
+
+docker tag fault-detector:latest 122610488475.dkr.ecr.eu-north-1.amazonaws.com/fault-detector:latest
+
+docker push 122610488475.dkr.ecr.eu-north-1.amazonaws.com/fault-detector:latest
+
+aws lambda update-function-code --function-name FaultDetectionLambda --image-uri 122610488475.dkr.ecr.eu-north-1.amazonaws.com/fault-detector:latest --region eu-north-1
+
+aws lambda invoke --function-name FaultDetectionLambda output.json --region eu-north-1
+cat output.json
+
+
+FOR GCP RUN BELOW COMMAND FIRST:
+
+set GOOGLE_APPLICATION_CREDENTIALS=C:\Users\shukl\OneDrive\Desktop\Project\gcp_key.json
+
+python gcp_metrics_collector.py
+
+FOR AZURE :
+
+az login
+python run_azure_pipeline.py
