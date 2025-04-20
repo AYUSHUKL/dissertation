@@ -2,8 +2,8 @@ from azure.identity import DefaultAzureCredential
 from azure.mgmt.monitor import MonitorManagementClient
 import datetime
 
-subscription_id = "fa73abc1-9bc8-4bf7-af88-deeb5f064fae"
-resource_id = "/subscriptions/fa73abc1-9bc8-4bf7-af88-deeb5f064fae/resourceGroups/MyResourceGroup/providers/Microsoft.Web/sites/azure-fault-detector"
+subscription_id = "provide<>your<>subs<>id"
+resource_id = "provide<>your<>resource<>id"
 
 def collect_azure_metrics():
     credential = DefaultAzureCredential()
