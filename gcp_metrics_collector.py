@@ -2,7 +2,7 @@ from google.cloud import monitoring_v3
 from datetime import datetime, timedelta
 import pytz
 
-project_id = "sigma-tractor-456711-m3"
+project_id = ""
 project_name = f"projects/{project_id}"
 
 client = monitoring_v3.MetricServiceClient()
